@@ -7,7 +7,7 @@ follows:
 ```sh
 cd $HOME
 sudo yum install -y git-core
-git clone https://github.com/dwanderton/setup.git
+git clone https://github.com/dwanderton/wp-ec2-setup-amazon-linux.git
 ./setup/setup.sh   
 ```
 
