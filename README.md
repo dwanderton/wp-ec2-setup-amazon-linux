@@ -20,3 +20,4 @@ To-do
 
 include add table username and root db pw to config
 include increase upload_max_filesize directive in php.ini.
+ask user to name wp-folder
