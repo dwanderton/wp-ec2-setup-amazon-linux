@@ -8,7 +8,7 @@ follows:
 cd $HOME
 sudo yum install -y git-core
 git clone https://github.com/dwanderton/wp-ec2-setup-amazon-linux.git
-./setup/setup.sh   
+sudo bash ./setup/setup.sh   
 ```
 
 See also http://github.com/dwanderton/dotfiles and
