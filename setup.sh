@@ -21,18 +21,20 @@ ln -sb dotfiles/.bashrc_custom .
 sudo yum install -y httpd
 sudo service httpd start
 sudo yum install -y php php-mysql php-xml
+cd /var/www/html
 sudo yum install -y mysql-server
 sudo service httpd restart
 sudo mysqladmin -uroot create maindb
+mysql_secure_installation
 
-cd /var/www/html
+# download and instal wp and give permissions to apache
 wget http://wordpress.org/latest.tar.gz
 sudo tar -xzvf latest.tar.gz
 cd wordpress
 sudo mv wp-config-sample.php wp-config.php
 sudo chown -R  apache /var/www/html
 
-mysql_secure_installation
+
 
 
 sudo vi wp-config.php
