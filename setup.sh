@@ -19,8 +19,8 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 
 sudo yum install -y httpd
-sudo yum install php php-mysql php-xml
-sudo yum install mysql-server
+sudo yum install -y php php-mysql php-xml
+sudo yum install -y mysql-server
 sudo mysqladmin -uroot create maindb
 
 cd /var/www/html
