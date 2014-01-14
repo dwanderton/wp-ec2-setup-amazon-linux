@@ -23,7 +23,7 @@ sudo service httpd start
 sudo yum install -y php php-mysql php-xml
 cd /var/www/html
 sudo yum install -y mysql-server
-sudoservice mysqld start
+sudo service mysqld start
 sudo service httpd restart
 sudo mysqladmin -uroot create maindb
 mysql_secure_installation
