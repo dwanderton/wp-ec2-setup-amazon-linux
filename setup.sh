@@ -19,8 +19,10 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 
 sudo yum install -y httpd
+sudo service httpd start
 sudo yum install -y php php-mysql php-xml
 sudo yum install -y mysql-server
+sudo service httpd restart
 sudo mysqladmin -uroot create maindb
 
 cd /var/www/html
@@ -29,7 +31,7 @@ sudo tar -xzvf latest.tar.gz
 cd wordpress
 sudo mv wp-config-sample.php wp-config.php
 sudo chown -R  apache /var/www/html
-sudo service httpd start
+
 mysql_secure_installation
 
 
