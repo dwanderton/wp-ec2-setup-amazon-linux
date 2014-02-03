@@ -6,6 +6,9 @@
 sudo yum install -y git
 sudo yum install -y curl
 
+# Install ftp abilities
+sudo yum install -y vsftpd
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
