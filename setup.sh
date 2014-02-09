@@ -36,10 +36,12 @@ wget http://wordpress.org/latest.tar.gz
 sudo tar -xzvf latest.tar.gz
 cd wordpress
 sudo mv wp-config-sample.php wp-config.php
-sudo chown -R  apache /var/www/html
+sudo chown -R  apache /var/www/html/
+
 
 
 
 
 sudo vi wp-config.php
 sudo service httpd restart
+sudo chown -R apache /var/www/html/
