@@ -29,7 +29,7 @@ sudo yum install -y mysql-server
 sudo service mysqld start
 sudo service httpd restart
 sudo mysqladmin -uroot create maindb
-mysql_secure_installation
+sudo mysql_secure_installation
 
 # download and instal wp and give permissions to apache
 wget http://wordpress.org/latest.tar.gz
