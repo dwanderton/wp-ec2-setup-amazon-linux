@@ -32,7 +32,7 @@ sudo mysqladmin -uroot create maindb
 sudo mysql_secure_installation
 
 # download and instal wp and give permissions to apache
-wget http://wordpress.org/latest.tar.gz
+sudo wget http://wordpress.org/latest.tar.gz
 sudo tar -xzvf latest.tar.gz
 cd wordpress
 sudo mv wp-config-sample.php wp-config.php
