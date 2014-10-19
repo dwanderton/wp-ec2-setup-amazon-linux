@@ -1,5 +1,8 @@
-wp-ec2-setup-amazon-linux setup.git
+Set up Wordpress on Amazon AMI EC2 
 ==================================
+
+This is my little bash script to remove the pain of setting up an instance and installing wordpress.
+
 Clone and run this on a new EC2 instance running Amazon Linux AMI 2013 to
 configure both the machine and your individual development environment as
 follows:
@@ -16,7 +19,9 @@ See also http://github.com/dwanderton/dotfiles and
 for more details.
 
 
-To-do 
+To-do list
+==========
+
 
 include add table username and root db pw to config
 include increase upload_max_filesize directive in php.ini.
