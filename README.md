@@ -23,10 +23,10 @@ To-do list
 ==========
 
 
->include add table username and root db pw to config
->include increase upload_max_filesize directive in php.ini.
->ask user to choose keep in wordpress folder [1] rename folder [2] or put in root html dir [3]
->edit /etc/php.ini to have a 20mb file upload size limit
->edit apache httpd.conf to allow for pretty permalinks  httpd.conf AllowOverride All
->KeepAlive On
->Compression/gzip on
+*include add table username and root db pw to config
+*include increase upload_max_filesize directive in php.ini.
+*ask user to choose keep in wordpress folder [1] rename folder [2] or put in root html dir [3]
+*edit /etc/php.ini to have a 20mb file upload size limit
+*edit apache httpd.conf to allow for pretty permalinks  httpd.conf AllowOverride All
+*KeepAlive On
+*Compression/gzip on
